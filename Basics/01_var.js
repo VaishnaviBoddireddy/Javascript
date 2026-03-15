@@ -6,5 +6,5 @@ let accountState;
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 /*prefer not to  use var bevause of issue in functional scope and block scope */
