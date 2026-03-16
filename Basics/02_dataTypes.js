@@ -7,12 +7,16 @@ console.log(3
 let name="Vaishnavi Boddireddy"//string
 let number=11//number//biginteger---2 to the power 53
 let isLoggedIn=true/false//boolean
+let state //undefined
 //null---standalone value--object
 //undefined---value not assigned--undefined
 //symbol---gives uniqueness--function
 
 
-//object
+//object---undefined
 console.log(typeof name)
 console.log(typeof Symbol)
 console.log(typeof null);
+console.log(state)
+console.log(typeof undefined)
+console.log(typeof object)
