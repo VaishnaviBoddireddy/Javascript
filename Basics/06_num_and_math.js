@@ -1,0 +1,11 @@
+const score = 300
+console.log(score)
+const balance = new Number(100)
+console.log(balance)
+console.log(balance.constructor)
+console.log(balance.toExponential(2))
+console.log(balance.toFixed(2))
+console.log(balance.toLocaleString(2))
+console.log(balance.toPrecision(2))
+console.log(balance.toString(2))
+console.log(balance.valueOf(2))
