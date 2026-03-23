@@ -33,5 +33,6 @@ chay()
 //for paranthasis no "return" keyword is used---returns the value directly
 //const addTwo = (num1,num2) => {return num1 + num2}
 //console.log(addTwo(3,4))
-const addTwo = (num1,num2) =>  (num1 + num2)
-console.log(addTwo(3,4))
+//const addTwo = (num1,num2) =>  (num1 + num2)
+const addTw = (num1,num2) =>  (num1 + num2) 
+console.log(addTw(3,4))
