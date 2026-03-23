@@ -23,6 +23,7 @@ chai()
 const chay = () =>{
     let USERNAME = "Vaishnai Boddireddy"
     console.log(this.USERNAME)
+    console.log(this)
 } 
 chay()
 //Arroe Function
@@ -30,3 +31,7 @@ chay()
 //Explicit return---return keyword is used
 //for curly braces "return" keyword is used---returns the values when mentioned with return keyword
 //for paranthasis no "return" keyword is used---returns the value directly
+//const addTwo = (num1,num2) => {return num1 + num2}
+//console.log(addTwo(3,4))
+const addTwo = (num1,num2) =>  (num1 + num2)
+console.log(addTwo(3,4))
